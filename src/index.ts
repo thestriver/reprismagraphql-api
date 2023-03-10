@@ -1,7 +1,7 @@
 import { createYoga } from 'graphql-yoga'
-import { createServer } from 'node:http'
+// import { createServer } from 'node:http'
 import { schema } from "./schema";
-// import { createServer } from 'http'
+import { createServer } from 'http'
 const port = Number(process.env.API_PORT) || 4000
 // const server = createServer({
 //   port
